@@ -11,7 +11,28 @@
 </head>
 
 <body>
+    <!--
+        For the purposes of this example, I have wrapped the lab in one ridicously named container.
+        When you are creating websites, it is up to you whether or not to put everything in the same 
+        container, or all in seperate ones.
+
+        The benefit of puting everything in the same container is they can all share the same padding.
+        The drawback is that you have to do extra work to break out of that container if you want a section
+        that doesn't have any margin (flush to the screen).
+
+        The benefit of doing seperate containers is that they can all have different margins and padding.
+        The drawback is that there is more to keep track of.
+
+        If you know everything on the page will share the same margin/padding between itself and the 
+        edge of the screen, use the same container. 
+
+        If you know everything will be varying in its distance away from the edge of the screen, then use
+        multiple containers and seperate your content with the different kinds.
+
+    -->
+    <!-- .a-container-to-rule-them-all -->
     <div class="a-container-to-contain-them-all">
+        <!-- Navbar -->
         <nav class="nav container">
             <span class="chirpus">
                 chirpus inc.
@@ -23,8 +44,9 @@
                 <li class="nav-item"><a href="#">Contact</a></li>
                 <li class="nav-item"><a class="button1" id="navbutton" href="#">Hire Us</a></li>
             </ul>
-        </nav>
+        </nav> <!-- ./ Navbar -->
 
+        <!-- Main Content -->
         <main class="main-content">
             <section class="container">
                 <h1 class="chirpus">chirpus inc.</h1>
@@ -43,8 +65,8 @@
                 </div>
                 <div class="scroll"><a href="#">Scroll Down</a></div>
             </section>
-        </main>
-    </div>
+        </main><!-- ./ Main Content -->
+    </div><!-- ./ .a-container-to-rule-them-all -->
 </body>
 
 </html>
