@@ -22,17 +22,12 @@ h1, h2, h3, h4, h5, h6 { color: #000; font-weight: 600;}
 }
 .container {
     padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-.container-left {
-    width: 50%;
-    float: left;
+.border-left{
     border-left: 3px solid #ccc;
-    margin-right: -15px;
-}
-.container-right {
-    width: 50%;
-    float: right;
-    margin-left: -15px;
 }
 .main-content {
     padding: 30px 0;
@@ -59,12 +54,6 @@ h1, h2, h3, h4, h5, h6 { color: #000; font-weight: 600;}
     text-decoration: none;
     color: #69696a;
     padding: 0 10px;
-}
-#navbutton {
-    background-color: black;
-    color: white;
-    padding: 5px 22px;
-    border-radius: 30px;
 }
 .chirpus { /* Logo */
     font-size: 1.25em;
@@ -104,17 +93,16 @@ h1, h2, h3, h4, h5, h6 { color: #000; font-weight: 600;}
 }
 /* #Circles */
 
-/* #Scroll Button */
+/* #Buttons */
 .scroll {
-    clear: both;
     text-align: center;
     display: block;
 }
-.scroll > a {
+.button-black > a {
     border-radius: 30px;
     background: black;
     color: white;   
     padding: 5px 22px;
     text-decoration: none;
 }
-/* #Scroll Button */
+/* #Buttons */
